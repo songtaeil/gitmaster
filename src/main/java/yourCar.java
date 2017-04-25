@@ -1,7 +1,8 @@
 
 public class yourCar {
     private int price;
-
+    private boolean fromSTS;
+    
     public int getPrice() {
         return price;
     }
