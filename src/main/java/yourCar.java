@@ -7,6 +7,9 @@ public class yourCar {
     }
 
     public void setPrice(int price) {
+        if(price > 1000){
+            price = 1000;
+        }
         this.price = price;
     }
 }
