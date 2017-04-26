@@ -1,5 +1,6 @@
+import org.springframework.data.domain.Page;
 
-public class myCar {
+public class  myCar <T> {
     private String carName;
     private int price;
     
@@ -13,5 +14,10 @@ public class myCar {
 
     public void setPrice(int price) {
         this.price = price;
+    }
+
+    public void run() {
+        Page<T> page = new Page<T>();
+        page.getNumber();
     }
 }
